@@ -46,12 +46,11 @@
 }
 
 .dot-ornament img {
-    border: 1px solid red;
     position: absolute;
     margin-top: 290px;
     left: 45px;
     width: 340px;
-    height: 170px;
+    height: 200px;
     }
 
 .hero-left {
@@ -66,28 +65,29 @@
 
 .hero-left h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 33px;
 }
 
 .hero-left span {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .hero-left button {
     border: 1px solid red;
     background-color: #2639ED;
     color: white;
-    width: 150px;
+    width: 140px;
     height: 45px;
-    font-size: 16px;
+    font-size: 15px;
     font: bold;
     border-radius: 50px;
 }
 
 .ellipse-85{
     position: absolute;
-    left: 450px;
+    left: 495px;
 }
 
 .Rectangle-23 {
@@ -96,13 +96,301 @@
     left: 900px;
 }
 
-.hero-image {
-    height: 512px;
-    width: 754px;
+.hero-image img{
+    height: 490px;
+    width: 700px;
     position: relative;
     top: 0;
     left: 154px;
 }
 
+/* Our Client */
+#clients {
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    margin-top: 125px;
+}
 
+.h1-span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    right: -20px;
+}
 
+#clients h1 {
+    font-size: 33px;
+}
+
+#clients span {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.clients-logo {
+    display: flex;
+    position: relative;
+    gap: 40px;
+    border: 1px solid red;
+    left: 90px;
+    margin-top: 40px;
+}
+.google img {
+    border: 1px solid red;
+    width: 149px;
+    height: 49px;
+}
+.airbnb img {
+    border: 1px solid red;
+    width: 166px;
+    height: 52px;
+}
+.uber img {
+    border: 1px solid red;
+    width: 165px;
+    height: 30px;
+    margin-top: 12px;
+}
+.amazon img {
+    border: 1px solid red;
+    width: 142px;
+    height: 43px;
+    margin-top: 15px;
+}
+
+/* How can we help you */
+#services {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 85px;
+    border: 1px solid red;
+}
+
+.rectangle-1 {
+    position: relative;
+    width: 165px;
+    height: 160px;
+    border-radius: 80px 0 0;
+    background: #FFF5DB;
+    right: -70px;
+}
+
+#services h1 {
+    font-size: 34px; 
+}
+
+#services span {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.service-left {
+    margin-top: 290px;
+}
+
+.service-left-h1 {
+    position: relative;
+    left: 100px;
+    top: -92px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    z-index: 2;
+}
+.dot-ornament-2 img {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    left: 95px;
+}
+
+.circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border:  8.8px solid #FF007A;
+    border-radius: 100px;
+    margin-top: 650px;
+    right: 125px;
+}
+.rectangle-2 {
+    position: relative;
+    width: 915px;
+    height: 590px;
+    border-radius: 100px 0 0;
+    background: #F4F9FF;
+    right: 0;
+    margin-top: 110px;
+}
+
+.layout-1 {
+    width: 280px;
+    height: 350px;
+    border-radius: 40px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    top: -628px;
+    left: 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: none;
+    box-shadow: 0px 0px 8px 2px hsla(0, 0%, 0%, 0.05);
+}
+.layout-1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.layout-1 span {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+}
+.rect-1 {
+    width: 120px;
+    height: 120px;
+    background: #F1F7FF;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-2 {
+    width: 280px;
+    height: 350px;
+    border-radius: 40px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -1051px;
+    left: 480px;
+    gap: 25px;
+    box-shadow: 0px 0px 8px 2px hsla(0, 0%, 0%, 0.05);
+}
+.layout-2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.layout-2 span {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+}
+.rect-2 {
+    width: 120px;
+    height: 120px;
+    background: #FFF7E3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-3 {
+    width: 280px;
+    height: 350px;
+    border-radius: 40px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -955px;
+    left: 170px;
+    gap: 25px;
+    box-shadow: 0px 0px 8px 2px hsla(0, 0%, 0%, 0.05);
+}
+.layout-3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.layout-3 span {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+}
+.rect-3 {
+    width: 120px;
+    height: 120px;
+    background: #FFF2F8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-4 {
+    width: 280px;
+    height: 350px;
+    border-radius: 40px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -1380px;
+    left: 480px;
+    gap: 25px;
+    box-shadow: 0px 0px 8px 2px hsla(0, 0%, 0%, 0.05);
+}
+.layout-4 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.layout-4 span {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+}
+.rect-4 {
+    width: 120px;
+    height: 120px;
+    background: #DEFFEE;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* .layout-one {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 28px;
+    top: -635px;
+    left: 148px;
+    border: 1px solid red;
+} */
+
+/* .layout-two {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 28px;
+    top: -1430px;
+    left: 460px;
+} */
