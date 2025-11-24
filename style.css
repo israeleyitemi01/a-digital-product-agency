@@ -5,12 +5,12 @@
 
 #container {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* Header Section */
 #header-section {
     width: 90%;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     margin: auto;
     display: flex;
 }
@@ -40,7 +40,7 @@
 /* Hero Section */
 #hero-section {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     display: flex;
 }
@@ -60,7 +60,7 @@
     gap: 30px;
     position: relative;
     left: 80px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .hero-left h1 {
@@ -75,7 +75,7 @@
 }
 
 .hero-left button {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #2639ED;
     color: white;
     width: 140px;
@@ -107,7 +107,7 @@
 /* Our Client */
 #clients {
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     display: flex;
     margin-top: 125px;
@@ -140,23 +140,22 @@
     margin-top: 40px;
 }
 .google img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 149px;
     height: 49px;
 }
 .airbnb img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 166px;
     height: 52px;
 }
 .uber img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 165px;
     height: 30px;
     margin-top: 12px;
 }
 .amazon img {
-    border: 1px solid red;
     width: 142px;
     height: 43px;
     margin-top: 15px;
@@ -168,7 +167,6 @@
     margin: auto;
     display: flex;
     margin-top: 85px;
-    border: 1px solid red;
 }
 
 .rectangle-1 {
@@ -243,7 +241,7 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-    border: none;
+    /* border: none; */
     box-shadow: 0px 0px 8px 2px hsla(0, 0%, 0%, 0.05);
 }
 .layout-1 h2 {
@@ -376,21 +374,145 @@
     align-items: center
 }
 
-/* .layout-one {
+/* Great Since */
+#great-digital {
+    width: 90%;
+    margin: auto;
+    margin-top: -1210px;
     display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 28px;
-    top: -635px;
-    left: 148px;
-    border: 1px solid red;
-} */
+}
 
-/* .layout-two {
+.great-since {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     position: relative;
-    gap: 28px;
-    top: -1430px;
-    left: 460px;
-} */
+    right: 40px;
+    top: 20px;
+}
+
+.image-left {
+    position: relative;
+    left: -30px;
+}
+.image-unsplash {
+    position: relative;
+    z-index: 2;
+}
+
+.ellipse-86 {
+    position: relative;
+    left: 505px;   
+    top: -145px;
+    z-index: 1;
+}
+.rect-26 {
+    position: relative;
+    top: 62px;
+}
+
+.great-since h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40px;
+    top: -110px;
+    font-size: 34px;
+    line-height: 1.1;
+}
+.great-since span {
+    position: relative;
+    top: -105px;
+    font-size: 15px;
+    line-height: 1.6;
+    left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* What our happy client say */
+.what-client-say {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -45px;
+}
+.what-client-say h1 {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.what-client-say {
+    font-size: 15px;
+    font-family: Arial, Helvetica;
+}
+
+#client-feedback {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.dot-ornament-6 img {
+    width: 194px;
+    height: 154px;
+    position: absolute;
+    left: 330px;
+    margin-top: -11px;
+}
+
+.unsplash-6 {
+    position: relative;
+    z-index: 2;
+}
+
+.ellipse-6{
+    position: relative;
+    margin-top: -210px;
+    z-index: 1;
+    left: 12px;
+}
+
+.clients-comments {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 135px;
+}
+.clients-comments h2{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clients-comments span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.dots-6 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.right-pics {
+    position: relative;
+    right: -40px;
+    top: 35px;
+}
+
+.clustered-pics img {
+    position: relative;
+    width: 340px;
+    height: 350px;
+    z-index: 2;
+}
+
+.circle-6 {
+    position: relative;
+    z-index: 1;
+    top: -250px;
+    right: -20px;
+}
