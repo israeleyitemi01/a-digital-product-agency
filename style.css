@@ -101,6 +101,8 @@ nav {
   color: #2639ed;
   border: 1px solid #2639ed;
   box-shadow: 0px 1px 1px 0px;
+  transform: translateY(-5px);
+  transition: all 0.5s;
 }
 
 .ellipse-85 {
@@ -158,21 +160,32 @@ nav {
   width: 149px;
   height: 49px;
 }
+.google img:active {
+  transform: scale(1.1);
+}
 .airbnb img {
   width: 166px;
   height: 52px;
+}
+.airbnb img:active {
+  transform: scale(1.1);
 }
 .uber img {
   width: 165px;
   height: 30px;
   margin-top: 12px;
 }
+.uber img:active {
+  transform: scale(1.1);
+}
 .amazon img {
   width: 142px;
   height: 43px;
   margin-top: 15px;
 }
-
+.amazon img:active {
+  transform: scale(1.1);
+}
 /* How can we help you */
 #services {
   width: 100%;
@@ -236,9 +249,7 @@ nav {
   right: 0;
   margin-top: 200px;
 }
-.rectangle-box {
-  /* flex-wrap: wrap; */
-}
+
 .layout-1 {
   width: 280px;
   height: 350px;
@@ -427,7 +438,27 @@ nav {
   margin-top: 100px;
   z-index: 2;
 }
-
+.group-2 img {
+  position: absolute;
+  margin-top: -295px;
+  left: 284px;
+  width: 100px;
+  height: 65px;
+  max-width: fit-content;
+  z-index: 3;
+}
+.group-2 img:hover {
+   transform: translatey(-10px);
+   transition: all 0.5s ease-in;
+}
+.arrow-group-2 img {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -286px;
+  width: 40px;
+  height: 36px;
+  z-index: 2;
+}
 
 .ellipse-86 {
   position: relative;
@@ -520,7 +551,21 @@ nav {
   flex-direction: row;
   gap: 30px;
 }
-
+.dot-1 img:active { 
+  transform: translatex(-5px);
+}
+.dot-2 img:active { 
+  transform: translatex(-5px);
+}
+.dot-3 img:active { 
+  transform: translatex(-5px);
+}
+.dot-4 img:active { 
+  transform: translatex(-5px);
+}
+.dot-5 img:active { 
+  transform: translatex(-5px);
+}
 .right-pics {
   position: relative;
   right: -40px;
@@ -531,8 +576,19 @@ nav {
   position: relative;
   width: 340px;
   height: 350px;
+  right: 10px;
   z-index: 2;
+  animation: rotate 25s linear infinite;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .circle-6 {
   position: relative;
   z-index: 1;
@@ -725,6 +781,10 @@ nav {
   left: 100px;
   gap: 20px;
   width: fit-content;
+  transform: all 0.5s ease;
+}
+.social-media img:hover {
+  transform: translateY(-7px);
 }
 
 .footer-parag {
@@ -746,7 +806,7 @@ nav {
   #hero-section {
     text-wrap: wrap;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
     align-items: center;
     justify-content: center;
   }
@@ -881,11 +941,32 @@ nav {
   #footer-container {
     flex-direction: column;
     gap: 50px;
+    background-color: #00000040;
   }
   .social-media {
     flex-direction: row;
     position: relative;
     left: 220px;
-    border: 1px solid red;
   }
+  .group-2 img {
+  position: absolute;
+  margin-top: -253px;
+  left: 230px;
+  width: 100px;
+  height: 65px;
+  max-width: fit-content;
+  z-index: 3;
+}
+.group-2 img:hover {
+   transform: translatey(-10px);
+   transition: all 0.5s ease-in;
+}
+.arrow-group-2 img {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -244px;
+  width: 40px;
+  height: 36px;
+  z-index: 2;
+}
 }
