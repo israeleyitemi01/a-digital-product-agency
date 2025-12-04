@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Digital Product Agency</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body id="container">
     <!-- Header Section -->
      <section>
-        <header> 
-            <div id="header-section">
+        <header id="header-section"> 
             <div>
             <img src="./assets/A+ Studio.svg" alt="">
              </div> 
             <div>  
-            <nav>              
+            <nav>             
+                <span class="hamburger"><i class="fa-solid fa-bars"></i></span> 
                 <ul class="nav-ul">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">What We Do</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#What We Do">What We Do</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
             </div>
-            </div> 
         </header>
      </section>
 
-     <!-- Hero Section -->
+     <!-- Hero Section main aside header footer-->
+    <main>
     <section>
      <div id="hero-section">
       <div class="dot-ornament">
@@ -38,7 +39,11 @@
       </div>
         <div class="hero-left">         
             <h1>A Digital Product Agency</h1>
-        <span>Leading digital agency with solid design and development<br>expertise. We build readymade websites, mobile applications,<br> and elaborate online business services.</span>
+        <span>
+          <p>Leading digital agency with solid design and development</p> 
+          <p>expertise. We build readymade websites, mobile applications,</p> 
+          <p>and elaborate online business services.</p>
+        </span>
         <button>
             Contact Now
         </button>
@@ -85,34 +90,39 @@
           <div class="rectangle-box">
           <div class="circle"></div>
           <div class="rectangle-2"></div>
-            <div class="layout-1">
+          <!-- layout-1 -->
+            <div class="layout-1 gt">
               <div class="rect-1">
                 <img src="./assets/box-search 1.svg" alt="">
               </div>
               <h2>Business Idea<br> Planning</h2>
               <span>We present you a proposal and<br> discuss niffty-gritty like</span>
             </div>
-            <div class="layout-2">
+            <!-- layout-2 -->
+            <div class="layout-2 gt">
               <div class="rect-2">
                 <img src="./assets/empty-wallet 1.svg" alt="">
               </div>
               <h2>Financial<br> Planning System</h2>
               <span>Protocols apart from aengage<br> models, pricing billing</span>
             </div>
-            <div class="layout-3">
+            <!-- layut-3 -->
+            <div class="layout-3 gt">
               <div class="rect-3">
                 <img src="./assets/code-1 1.svg" alt="">
               </div>
               <h2>Development<br> Website and App</h2>
               <span>Communication protocols apart<br> from engagement models</span>
             </div>
-            <div class="layout-4">
+            <!-- layout-4 -->
+            <div class="layout-4 gt">
               <div class="rect-4">
                 <img src="./assets/chart-square 1.svg" alt="">
               </div>
               <h2>Market Analysis<br> Project</h2>
               <span>Protocols apart from aengage<br> models, pricing billing</span>
-            </div>               
+            </div> 
+
           </div>
         </div>
       </section>
@@ -161,5 +171,81 @@
           </div>
         </div>
       </section>
+      
+      <!-- Newsletter -->
+       <section id="newsletter-section">
+        <div class="rect-30"><img src="./assets/Rectangle 30.svg" alt=""></div>
+        <div class="newsletter">
+          <div class="subscribe-text">
+            <h1>Subscribe Newsletter</h1>
+            <p>I will update good news and promotion service not spam</p>
+          </div>
+          <div class="dot-ornament-7"><img src="./assets/Dot.svg" alt=""></div>
+          <div class="rect-7"><img src="./assets/Rectangle 32 (1).svg" alt=""></div>
+          <div class="newsletter-right">
+          <div class="rect-31"><img src="./assets/Rectangle 31.svg" alt=""></div>
+          
+          <div class="email-address">
+          <div class="email-text">
+           <label for="email"></label>
+           <input type="email" style="width: 430px; position: relative; right: -65px; padding: 25px; border-radius: 50px; border: 1px solid white; box-shadow: 0px 0px 2px 0px; margin-top: 80px;" placeholder="Enter your email address.." required>
+          </div>
+          </div>
+          </div>
+          <div class="email"><button style="width: 165px; height: 45px; margin-top: 76px; border-radius: 50px; color: white; background-color: #2639ED; border: none; font-family: Arial, Helvetica, sans-serif; font-size: 15px; position: relative; z-index: 6; right: -30px;">Contact Now</button></div>
+          </div>
+        </div>
+       </section>
+       </main>
+
+       <!-- Footer -->
+        <hr style="width: 90%; margin: auto; margin-top: 20px; color: #F1F1F1;">
+        <footer id="footer-container">
+            <div class="footer-text-1">
+              <img src="./assets/A+ Studio.svg" alt="">
+              <p>Leading digital agency with solid design<br> and development expertise. We build<br> readymade websites, mobile applications,<br> and elaborate online business services.</p>
+            </div>
+            <div class="footer-text-2">
+                <h2>What We Do</h2>
+                <ul class="f-list-1">
+                <li>Web Design</li>
+                <li>App Design</li>
+                <li>Social Media Manage</li>
+                <li>Market Analysis Project</li>
+                </ul>
+            </div>
+            <div class="footer-text-3">
+                <h2>Company</h2>
+                <ul class="f-list-2">
+                <li><p>About Us</li> 
+                <li>Career</li>
+                <li>Become Investor</li>
+                </ul>
+            </div>
+            <div class="footer-text-4">
+                <h2>Support</h2>
+                <ul class="f-list-3">
+                <li>FAQ</li> 
+                <li>Policy</li>
+                <li>Business</li>
+                </ul>
+            </div>
+            <div class="footer-text-5">
+                <h2>Contact</h2>
+              <ul class="f-list-4">
+                <li>WhatsApp</li>
+                <li>Support 24</li>
+              </ul>
+            </div>
+          </footer>  
+          <div class="social-media">
+            <div class="facebook"><img src="./assets/Group.svg" alt=""></div>
+            <div class="twitter"><img src="./assets/Group (1).svg" alt=""></div>
+            <div class="linkedin"><img src="./assets/linkedin.svg" alt=""></div>
+          </div>       
+          <hr style="width: 90%; margin: auto; margin-top: 25px; color: #F1F1F1;">         
+          <div class="footer-parag">
+            <p>Copyright © 2022 Avi Yansah</p>
+          </div>
 </body>
 </html>
