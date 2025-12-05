@@ -865,9 +865,9 @@ nav {
   .nav-ul {
     display: none;
   }
-  /* .hamburger {
+  .hamburger {
     visibility: visible;
-  } */
+  }
   #hero-section {
     text-wrap: wrap;
     flex-direction: column;
