@@ -15,10 +15,23 @@
   justify-content: space-between;
 }
 
-#header-section img {
-  margin-left: 30px;
+.a-studio-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
-#header-section img:hover {
+.a-plus-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+.studio-1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.a-studio-1:hover {
   transform: scale(1.02);
 }
 
@@ -894,7 +907,7 @@ nav {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -910,6 +923,14 @@ nav {
     align-items: center;
     justify-content: space-between;
   }
+
+.a-plus-1 {
+  font-size: 32px;
+}
+.studio-1 {
+  font-size: 29px;
+}
+
   .nav-ul {
     display: none;
   }
